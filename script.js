@@ -1,4 +1,5 @@
 const btnList = document.querySelectorAll('.btn');
+const alertBtn = document.querySelector('#alert-btn');
 
 btnList.forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -12,4 +13,8 @@ btnList.forEach((btn) => {
         btn.style.color = 'black';
 
     })
+})
+
+alertBtn.addEventListener('click', () => {
+    alert('Alert button clicked!');
 })
