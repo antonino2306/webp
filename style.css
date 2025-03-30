@@ -3,14 +3,14 @@
   --secondary-color: #3498db;
   --accent-color: #34495e;
   --light-color: #ecf0f1;
-  --border-radius: 8px;
+  --border-radius: 10px;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Arial", sans-serif;
+  font-family: "Monospace", sans-serif;
 }
 
 body {
@@ -157,6 +157,7 @@ main {
   text-decoration: none;
   margin-top: 1rem;
   transition: background-color 0.3s ease;
+  border: none;
 }
 
 .btn:hover {
