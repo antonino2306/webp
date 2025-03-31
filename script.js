@@ -3,6 +3,8 @@ const alertBtn = document.querySelector('#alert-btn');
 const resetbtn = document.querySelector('#reset');
 const btn = document.querySelector('#bottone');
 const refreshBtn = document.querySelector('#refresh');
+const bottone = document.querySelector('#reset-btn2');
+const bottons = document.querySelector('#reset-btn3'); 
 
 const alertMessage = document.querySelector('#alert-message');
 alertMessage.addEventListener('click', () => {
@@ -18,7 +20,7 @@ btnList.forEach((btn) => {
         parent.style.borderRadius = '10px';
 
         btn.style.backgroundColor = 'darkblue';
-        btn.style.color = 'red';
+        btn.style.color = 'white';
 
     })
 })
@@ -47,4 +49,12 @@ btn.addEventListener('click', () => {
 
 refreshBtn.addEventListener('click', () => {
     alert('Refresh button clicked!');
+})
+
+bottone.addEventListener('click', () => {
+    alert('ORA LOLLO È GAY');
+})
+
+bottons.addEventListener('click', () => {
+    alert('ciao');
 })
