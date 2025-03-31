@@ -3,6 +3,11 @@ const alertBtn = document.querySelector('#alert-btn');
 const resetbtn = document.querySelector('#reset');
 const btn = document.querySelector('#bottone');
 
+const alertMessage = document.querySelector('#alert-message');
+alertMessage.addEventListener('click', () => {
+    alert('Message button clicked!');
+});
+
 btnList.forEach((btn) => {
     btn.addEventListener('click', () => {
         const parent = btn.parentElement;
