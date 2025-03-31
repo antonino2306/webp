@@ -1,7 +1,7 @@
 const btnList = document.querySelectorAll('.btn');
 const alertBtn = document.querySelector('#alert-btn');
 const resetbtn = document.querySelector('#reset');
-
+const btn = document.querySelector('#bottone');
 
 btnList.forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -33,3 +33,8 @@ resetbtn.addEventListener('click', () => {
         btn.style.color = '';
     })
 })
+
+btn.addEventListener('click', () => {
+    alert('ORA SEI GAY!!!');
+}
+)
