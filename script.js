@@ -2,6 +2,7 @@ const btnList = document.querySelectorAll('.btn');
 const alertBtn = document.querySelector('#alert-btn');
 const resetbtn = document.querySelector('#reset');
 const btn = document.querySelector('#bottone');
+const refreshBtn = document.querySelector('#refresh');
 
 const alertMessage = document.querySelector('#alert-message');
 alertMessage.addEventListener('click', () => {
@@ -43,3 +44,7 @@ btn.addEventListener('click', () => {
     alert('ORA SEI GAY!!!');
 }
 )
+
+refreshBtn.addEventListener('click', () => {
+    alert('Refresh button clicked!');
+})
